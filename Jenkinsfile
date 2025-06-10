@@ -12,6 +12,7 @@ pipeline {
          stage('Build') {
             steps {
                 echo "Building project without tests"
+                sh 'sudo apt install maven -y'
                 sh 'mvn clean package -DskipTests'
             }
         }
