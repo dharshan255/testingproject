@@ -1,8 +1,6 @@
 pipeline {
     agent any
-    tools {
-    maven "Maven-3.9.9" // Assuming you have Maven 3.9.9 configured in Jenkins tools
-    }
+   
 
     stages {
         
