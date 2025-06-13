@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo "Cloning GitHub repo"
-                echo "trigg"
+                echo "trigger"
                 checkout scm
             }
         }
