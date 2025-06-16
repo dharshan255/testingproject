@@ -6,4 +6,4 @@ FROM openjdk:17-slim
 WORKDIR /app
 COPY --from=build /build/target/spring-petclinic-3.4.0-SNAPSHOT.jar app.jar
 CMD ["java", "-jar", "app.jar"]
-~
+
